@@ -1,0 +1,34 @@
+!
+!     A 30-species reduced mechanism for DME-air
+!
+!     Developed by:
+!
+!       Zhaoyu Luo & Tianfeng Lu
+!       Department of Mechanical Engineering
+!       University of Connecticut
+!       191 Audotorium Road U-3139
+!       Storrs, CT 06269
+!
+!       Email: tlu@engr.uconn.edu
+!
+!     Citation: Bhagatwala A., Luo Z., Lu T.F., Shen H., Sutton J.A., Chen J.H., 
+!               "Numerical and experimental investigation of turbulent DME jet flames," 
+!               Proc. Combust. Inst., DOI: 10.1016/j.proci.2014.05.147, 2014.
+
+ELEMENTS
+C	H	O	N
+END
+
+SPECIES
+H	H2	CH3	O
+CH4	OH	H2O	C2H2
+CO	C2H4	C2H5	CH2O
+C2H6	CH3O	O2	HO2
+H2O2	CO2	CH3HCO	HCOOH
+CH3OCH3	CH3OCO	CH3OCHO	CH3OCH2OH
+OCH2OCHO	HOCH2OCO	CH3OCH2O2	HO2CH2OCHO
+O2CH2OCH2O2H	N2	
+END
+
+REACTIONS
+END
